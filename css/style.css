@@ -1,0 +1,165 @@
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+.top-container {
+    background-color: #96B6C5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    color: #F1F0E8;
+    font-size: 5.65rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+
+.subtitle {
+    color: #F1F0E8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.junior {
+    text-decoration: underline;
+}
+
+.image-outside-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-inside-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-container {
+    margin: 50px 0 100px;
+}
+
+.middle-container img {
+    border-radius: 90px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+h2 {
+    color: #96B6C5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+
+hr {
+    border: 5px dotted #F1F0E8;
+    border-bottom: none;
+    width: 30%;
+    margin: 100px auto;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.experience-parent-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    width: 50%;
+    margin: 50px auto 0 auto;
+    text-align: left;
+}
+
+.img-experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 50%;
+    margin: 10px auto 0 auto;
+    column-gap: 20px;
+    text-align: left;
+}
+
+.img-skills {
+    grid-row-start: 1;
+    grid-row: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-service {
+    grid-column-start: 2;
+    font-weight: bold;
+}
+
+.swift {
+    grid-column-start: 2;
+    font-weight: bold;
+}
+
+.web {
+    grid-column-start: 2;
+    font-weight: bold;
+}
+
+.contact-message {
+    line-height: 2;
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn-contact {
+    background-image: linear-gradient(to bottom, #F1F0E8, #96B6C5);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    box-shadow: 5px 5px 10px #ADC4CE;
+}
+
+.bottom-container {
+    background-color: #96B6C5;
+    padding: 50px 0 20px;
+}
+
+.footer-link {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
